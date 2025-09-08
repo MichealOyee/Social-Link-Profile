@@ -1,0 +1,52 @@
+
+img{
+    border-radius: 1000px;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: url(Inter-VariableFont_slnt,wght.ttf);
+    /* The font used is not recognised by VSCODE */
+    margin-left: 500px;
+    margin-right: 500px;
+}
+div{
+    border: 5px solid hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+h1{
+    font-weight: 700;
+}
+h1, p, h2{
+    color:  hsl(0, 0%, 100%);
+}
+h4{
+    color:  hsl(75, 94%, 57%);
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 14px;
+}
+h2 {
+    padding: 10px;
+    background-color:  hsl(0, 0%, 20%);
+    border: 1px ;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h2:hover{
+    background-color: hsl(75, 94%, 57%);
+}
