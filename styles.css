@@ -1,25 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 img{
     border-radius: 1000px;
+    height: 100px;
+    margin-bottom: 20px;
 }
 body{
     background-color: hsl(0, 0%, 8%);
     font-size: 14px;
-    font-family: url(Inter-VariableFont_slnt,wght.ttf);
+    font-family: 'Inter';
     /* The font used is not recognised by VSCODE */
     margin-left: 500px;
     margin-right: 500px;
+    height: 500px;
 }
 div{
     border: 5px solid hsl(0, 0%, 12%);
     background-color: hsl(0, 0%, 12%);
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    padding-top: 10px;
 }
 h1{
     font-weight: 700;
+    margin-bottom: 10px;
 }
 h1, p, h2{
     color:  hsl(0, 0%, 100%);
@@ -27,21 +38,21 @@ h1, p, h2{
 h4{
     color:  hsl(75, 94%, 57%);
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 p{
     font-size: 14px;
+    padding-bottom: 5px;
 }
 h2 {
-    padding: 10px;
+    padding: 8px;
     background-color:  hsl(0, 0%, 20%);
     border: 1px ;
     border-radius: 5px;
-    margin-left: 25px;
-    margin-right: 25px;
     text-decoration: none;
     font-weight: 600;
     cursor: pointer;
+    margin: 10px;
 }
 a{
     color: white;
